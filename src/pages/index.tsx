@@ -1,5 +1,5 @@
-import Header from './components/Header';
-import VoteForm from './components/VoteForm';
+import Header from '../components/Header';
+import VoteForm from '../components/VoteForm';
 
 export default function Home() {
   return (

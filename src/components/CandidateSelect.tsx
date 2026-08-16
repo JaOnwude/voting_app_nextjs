@@ -27,3 +27,29 @@ export default function CandidateSelect({ candidates, selected, onChange }: Cand
     </div>
   );
 }
+
+// interface CandidateSelectProps {
+//   candidates?: string[]; // Made optional for safety
+//   selectedCandidate?: string;
+//   onSelect: (candidate: string) => void;
+// }
+
+// export default function CandidateSelect({
+//   candidates = [], 
+//   selectedCandidate = '',
+//   onSelect,
+// }: CandidateSelectProps) {
+//   return (
+//     <select
+//       value={selectedCandidate}
+//       onChange={(e) => onSelect(e.target.value)}
+//     >
+//       <option value="" disabled>-- Select a candidate --</option>      
+//       {candidates?.map((c) => (
+//         <option key={c} value={c}>
+//           {c}
+//         </option>
+//       ))}
+//     </select>
+//   );
+// }
